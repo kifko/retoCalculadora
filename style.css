@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#perico-palotes {
+    margin-left: calc(50% - 100px);
+}
+
+.calc-btn {
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 45px;
+    border: 1px solid rgb(255, 79, 79);
+    text-align: center;
+    cursor: pointer;
+    font-size: 32px;
+    padding-top: 3px;
+    box-shadow: 5px 7px 8px;
+}
+
+.calc-btn:hover {
+    background-color: #96A298;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 200px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#calc-zero {
+    width: 51.66666667px;
+    border-radius: 0 0 0 17px;
+}
+
+#calc-clear {
+    width: 51.66666667px;
+}
+
+#calc-display-val {
+    height: 48px; 
+    background-color: #96A298;
+    color: white;
+    text-align: right;
+    border-left: 1px solid rgb(255, 79, 79);   
+    border-right: 1px solid rgb(255, 79, 79);
+    border-top: 1px solid rgb(255, 79, 79);
+    font-size: 48px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 7px 7px 0 0;
+}
+.calc-btn-operator {
+    background-color: rgb(255, 193, 79);
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#calc-equal {
+    border-radius: 0 0 7px 0;
+}
+
+}
+
